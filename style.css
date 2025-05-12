@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,96.4,100..900;1,96.4,100..900&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #c5ebd6;
+}
+.titleContent{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+.headerTittle{
+    color: white;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+
+  padding: 16px;
+
+  align-items: center;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  color: white;
+
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.521);
+  box-shadow: inset;
+
+  background: linear-gradient(to bottom, #1dbe6e, #0e5e36);
+}
+
+a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.navbar {
+ 
+  letter-spacing: 1px;
+  display: flex;
+  gap: 16px;
+  transition-duration: 1s;
+  width: 100%;
+}
+
+nav > a:hover{
+  background-color: #0e5e36;
+  color: black;
+  border-radius: 5px;
+  
+}
+
+nav > a {
+  transition-duration: 0.5s;
+}
+
+main{
+  min-width: 300px;
+  max-width: 1000px;
+  text-align: center;
+  
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 380px;
+  
+  
+  margin: auto;
+  padding: 10px;
+
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  background-color: rgb(255, 254, 254);
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+  
+}
+
+.link1{
+  color: green;
+}
+.link2{
+  color: green;
+}
+img{
+  width: 100%;
+}
+main img.imgpequena{
+    max-width:350px ;
+    display: block;
+    margin: auto;
+}
+
+h2{
+  color: #0e5e36;
+}
+h3{
+  color: #0e5e36;
+}
+
+aside{
+  background-color: #1dbe6e;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 1px;
+  margin-left: 50px;
+  margin-right: 140px;
+  margin-bottom: 1px;
+
+  box-shadow: 0px 0px 10px black;
+}
+
+aside > ul{
+  list-style-position: inside;
+  columns: 2;
+}
+
+aside > h4{
+  font-size: large;
+  
+}
+
+footer{
+  background-color: #0e5e36;
+  text-align: center;
+}
