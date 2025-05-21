@@ -6,6 +6,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: #c5ebd6;
+  overflow: hidden;
 }
 .titleContent{
     display: flex;
@@ -123,6 +124,7 @@ aside{
 aside > ul{
   list-style-position: inside;
   columns: 2;
+  
 }
 
 aside > h4{
@@ -133,4 +135,8 @@ aside > h4{
 footer{
   background-color: #0e5e36;
   text-align: center;
+}
+
+iframe{
+  max-width:100% ;
 }
