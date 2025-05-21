@@ -137,3 +137,7 @@ footer{
   text-align: center;
 }
 
+iframe{
+  min-height: 315;
+  max-width: 560;
+}
