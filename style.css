@@ -6,7 +6,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: #c5ebd6;
-  overflow: hidden;
+  
 }
 .titleContent{
     display: flex;
@@ -138,5 +138,5 @@ footer{
 }
 
 iframe{
-  max-width:100% ;
+  margin: auto;
 }
